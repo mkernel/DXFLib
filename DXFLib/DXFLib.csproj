@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{476FA4C4-FA1D-4A2A-985B-8CBF50F82251}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DXFLib</RootNamespace>
+    <AssemblyName>DXFLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassParser.cs" />
+    <Compile Include="DXF3DFace.cs" />
+    <Compile Include="DXFAppIDRecord.cs" />
+    <Compile Include="DXFArc.cs" />
+    <Compile Include="DXFBlockRecord.cs" />
+    <Compile Include="DXFCircle.cs" />
+    <Compile Include="DXFClass.cs" />
+    <Compile Include="DXFDimStyleRecord.cs" />
+    <Compile Include="DXFDocument.cs" />
+    <Compile Include="DXFEllipse.cs" />
+    <Compile Include="DXFEntity.cs" />
+    <Compile Include="DXFGenericEntity.cs" />
+    <Compile Include="DXFHeader.cs" />
+    <Compile Include="DXFLayerRecord.cs" />
+    <Compile Include="DXFLine.cs" />
+    <Compile Include="DXFLineTypeRecord.cs" />
+    <Compile Include="DXFLWPolyLine.cs" />
+    <Compile Include="DXFPoint.cs" />
+    <Compile Include="DXFPointEntity.cs" />
+    <Compile Include="DXFPolyLine.cs" />
+    <Compile Include="DXFRay.cs" />
+    <Compile Include="DXFShape.cs" />
+    <Compile Include="DXFSolid.cs" />
+    <Compile Include="DXFSpline.cs" />
+    <Compile Include="DXFStyleRecord.cs" />
+    <Compile Include="DXFTables.cs" />
+    <Compile Include="DXFTolerance.cs" />
+    <Compile Include="DXFTrace.cs" />
+    <Compile Include="DXFUCSRecord.cs" />
+    <Compile Include="DXFVertex.cs" />
+    <Compile Include="DXFViewPortRecord.cs" />
+    <Compile Include="DXFVPortRecord.cs" />
+    <Compile Include="EntityAttribute.cs" />
+    <Compile Include="EntityParser.cs" />
+    <Compile Include="HeaderParser.cs" />
+    <Compile Include="ISectionParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableAttribute.cs" />
+    <Compile Include="TableParser.cs" />
+    <Compile Include="TextReaderExtensions.cs" />
+    <Compile Include="HeaderAttribute.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
