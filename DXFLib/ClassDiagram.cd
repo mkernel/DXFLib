@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DXFLib.DXFEntity" Collapsed="true">
+    <Position X="15.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAgAAAQqAAAQAAAAEAQAAQAAAABIAAAAABAAAAAA=</HashCode>
+      <FileName>DXFEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXF3DFace" Collapsed="true">
+    <Position X="18.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAQAAAAUAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DXF3DFace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFArc" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgIAAAAAAABAAAAAAAAAQAAAAAAAAAABAAIAIAIAAA=</HashCode>
+      <FileName>DXFArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFCircle" Collapsed="true">
+    <Position X="16.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgIAAAAAAABAAAAAAAAAQAAAAAAAAAABAAAAAAIAAA=</HashCode>
+      <FileName>DXFCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFEllipse" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBgAAAgAAAAAAAAACAAAAQAAAAAAAAAABgAAAAAIAAg=</HashCode>
+      <FileName>DXFEllipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFLine" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAACACABAAAgAAAAAQAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DXFLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFLWPolyLine" Collapsed="true">
+    <Position X="23.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAEAAAABABQAAAAQAQEAAEAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DXFLWPolyLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFPointEntity" Collapsed="true">
+    <Position X="25.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAAAAAAAABAAAAAAIAAQACAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DXFPointEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFPolyLine" Collapsed="true">
+    <Position X="30" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAAAIhBAAkAAACAAQAABEAAAgAABAAAAAAAAAA=</HashCode>
+      <FileName>DXFPolyLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFRay" Collapsed="true">
+    <Position X="27.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAIAAAACAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DXFRay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFXLine" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DXFRay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFShape" Collapsed="true">
+    <Position X="21" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAADgAAAAEAAAQAAAAAAAAABBUAAAAAAAAg=</HashCode>
+      <FileName>DXFShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFSolid" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DXFSolid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFSpline" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAASAAAIAECBAABAwgYICAIAAEAAAAAAAVAAEA=</HashCode>
+      <FileName>DXFSpline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFTrace" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAABAAAAQAAAAUAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DXFTrace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXFLib.DXFVertex" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADARAAEIAAABAAAAAIAAQACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DXFVertex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
