@@ -45,10 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlockParser.cs" />
     <Compile Include="ClassParser.cs" />
     <Compile Include="DXF3DFace.cs" />
     <Compile Include="DXFAppIDRecord.cs" />
     <Compile Include="DXFArc.cs" />
+    <Compile Include="DXFBlock.cs" />
     <Compile Include="DXFBlockRecord.cs" />
     <Compile Include="DXFCircle.cs" />
     <Compile Include="DXFClass.cs" />
@@ -58,6 +60,7 @@
     <Compile Include="DXFEntity.cs" />
     <Compile Include="DXFGenericEntity.cs" />
     <Compile Include="DXFHeader.cs" />
+    <Compile Include="DXFInsert.cs" />
     <Compile Include="DXFLayerRecord.cs" />
     <Compile Include="DXFLine.cs" />
     <Compile Include="DXFLineTypeRecord.cs" />

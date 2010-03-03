@@ -14,6 +14,8 @@ namespace DXFLib
         public DXFHeader Header { get { return header; } }
         private List<DXFClass> classes = new List<DXFClass>();
         public List<DXFClass> Classes { get { return classes; } }
+        private List<DXFBlock> blocks = new List<DXFBlock>();
+        public List<DXFBlock> Blocks { get { return blocks; } }
         private DXFTables tables = new DXFTables();
         public DXFTables Tables { get { return tables; } }
         private List<DXFEntity> entities = new List<DXFEntity>();
@@ -51,6 +53,7 @@ namespace DXFLib
             sectionparsers["CLASSES"] = new ClassParser();
             sectionparsers["TABLES"] = new TableParser();
             sectionparsers["ENTITIES"] = new EntityParser();
+            sectionparsers["BLOCKS"] = new BlockParser();
             ISectionParser currentParser = null;
 
             TextReader reader = new StreamReader(file);

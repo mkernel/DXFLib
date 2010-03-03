@@ -72,11 +72,6 @@ namespace DXFLib
     {
     }
 
-    [Entity("INSERT")]
-    public class DXFInsert : DXFGenericEntity
-    {
-    }
-
     [Entity("LEADER")]
     public class DXFLeader : DXFGenericEntity
     {

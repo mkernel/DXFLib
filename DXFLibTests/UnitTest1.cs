@@ -67,5 +67,12 @@ namespace DXFLibTests
             DXFDocument doc = new DXFDocument();
             doc.Load(new MemoryStream(Properties.Resources.LaptopStand));
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            DXFDocument doc = new DXFDocument();
+            doc.Load(new MemoryStream(Properties.Resources.Test));
+        }
     }
 }
