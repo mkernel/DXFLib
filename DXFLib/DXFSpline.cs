@@ -35,7 +35,7 @@ namespace DXFLib
         public DXFPoint StartTangent { get { return starttangent; } }
 
         private DXFPoint endtangent = new DXFPoint();
-        public DXFPoint EndTangent { get; set; }
+        public DXFPoint EndTangent { get { return endtangent; } }
 
         private List<double> knotvalues = new List<double>();
         public List<double> KnotValues { get { return knotvalues; } }

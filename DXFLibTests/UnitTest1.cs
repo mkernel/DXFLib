@@ -61,18 +61,33 @@ namespace DXFLibTests
         //
         #endregion
 
-        [TestMethod]
+        //[TestMethod]
         public void TestMethod1()
         {
             DXFDocument doc = new DXFDocument();
             doc.Load(new MemoryStream(Properties.Resources.LaptopStand));
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void TestMethod2()
         {
             DXFDocument doc = new DXFDocument();
             doc.Load(new MemoryStream(Properties.Resources.Test));
         }
+
+        //[TestMethod]
+        public void TestMethod3()
+        {
+            DXFDocument doc = new DXFDocument();
+            doc.Load(new MemoryStream(Properties.Resources.Untitled_2));
+        }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            DXFDocument doc = new DXFDocument();
+            doc.Load(new MemoryStream(Properties.Resources.Hase));
+        }
+
     }
 }

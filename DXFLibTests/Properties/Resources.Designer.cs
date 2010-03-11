@@ -60,6 +60,13 @@ namespace DXFLibTests.Properties {
             }
         }
         
+        internal static byte[] Hase {
+            get {
+                object obj = ResourceManager.GetObject("Hase", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
         internal static byte[] LaptopStand {
             get {
                 object obj = ResourceManager.GetObject("LaptopStand", resourceCulture);
@@ -70,6 +77,13 @@ namespace DXFLibTests.Properties {
         internal static byte[] Test {
             get {
                 object obj = ResourceManager.GetObject("Test", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        internal static byte[] Untitled_2 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled_2", resourceCulture);
                 return ((byte[])(obj));
             }
         }

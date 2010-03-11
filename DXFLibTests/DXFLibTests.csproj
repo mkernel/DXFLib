@@ -63,8 +63,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Hase.dxf" />
     <None Include="Resources\LaptopStand.dxf" />
     <None Include="Resources\Test.dxf" />
+    <None Include="Resources\Untitled-2.dxf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

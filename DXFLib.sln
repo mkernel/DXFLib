@@ -9,12 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		DXFLib1.vsmdi = DXFLib1.vsmdi
 		DXFLib2.vsmdi = DXFLib2.vsmdi
+		DXFLib3.vsmdi = DXFLib3.vsmdi
+		DXFLib4.vsmdi = DXFLib4.vsmdi
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = DXFLib2.vsmdi
+		CategoryFile = DXFLib4.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
