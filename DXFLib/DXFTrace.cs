@@ -10,7 +10,7 @@ namespace DXFLib
     {
         private DXFPoint extrusion = new DXFPoint();
         public DXFPoint ExtrusionDirection { get { return extrusion; } }
-        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint() };
+        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint(), new DXFPoint() };
         public DXFPoint[] Corners { get { return corners; } }
 
         public double Thickness { get; set; }
