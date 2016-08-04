@@ -8,7 +8,7 @@ namespace DXFLib
     [Entity("3DFACE")]
     public class DXF3DFace : DXFEntity
     {
-        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint() };
+        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint(), new DXFPoint() };
         public DXFPoint[] Corners { get { return corners; } }
 
         [Flags]
