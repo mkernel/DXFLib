@@ -10,7 +10,7 @@ namespace DXFLib
     {
         private DXFPoint extrusion = new DXFPoint();
         public DXFPoint ExtrusionDirection { get { return extrusion; } }
-        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint(), new DXFPoint() };
+        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint() };
         public DXFPoint[] Corners { get { return corners; } }
 
         public double Thickness { get; set; }
@@ -21,6 +21,13 @@ namespace DXFLib
             if (groupcode >= 10 && groupcode <= 33)
             {
                 int idx = groupcode % 10;
+                if(idx >= corners.Length) {
+                    int oldLength=corners.Length;
+                    Array.Resize(ref corners, idx+1);
+                    for(int i=oldLength-1;i<idx+1) {
+                        corners[i]=new DXFPoint();
+                    }
+                }
                 int component = groupcode / 10;
                 switch (component)
                 {

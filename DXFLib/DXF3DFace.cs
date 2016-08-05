@@ -8,7 +8,7 @@ namespace DXFLib
     [Entity("3DFACE")]
     public class DXF3DFace : DXFEntity
     {
-        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint(), new DXFPoint() };
+        private DXFPoint[] corners = new DXFPoint[] { new DXFPoint(), new DXFPoint(), new DXFPoint() };
         public DXFPoint[] Corners { get { return corners; } }
 
         [Flags]
@@ -28,6 +28,14 @@ namespace DXFLib
             if (groupcode >= 10 && groupcode <= 33)
             {
                 int idx = groupcode % 10;
+                //check if we need to increase the corners array and if so, do so.
+                if(idx >= corners.Length) {
+                    int oldLength=corners.Length;
+                    Array.Resize(ref corners, idx+1);
+                    for(int i=oldLength-1;i<idx+1) {
+                        corners[i]=new DXFPoint();
+                    }
+                }
                 int component = groupcode / 10;
                 switch (component)
                 {
